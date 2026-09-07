@@ -11,6 +11,8 @@ The name is a small hint that this tool is focused on runtime visibility rather 
 - Added `ANRM: Focus Sidebar View`.
 - Added Marketplace packaging metadata and `.vscodeignore` for cleaner VSIX packages.
 
+<img width="302" height="969" alt="image" src="https://github.com/user-attachments/assets/9f1a177c-f005-4125-9067-fdeec32557d9" />
+
 The monitor is a Webview view in the `ANRM` Activity Bar container, not an editor tab or Bottom Panel.
 
 Run:
