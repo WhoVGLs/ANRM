@@ -1,8 +1,8 @@
 {
-  "name": "cpp-runtime-monitor",
+  "name": "anrm",
   "displayName": "ANRM",
   "description": "Unix process metrics with trend graphs.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "publisher": "VGLs",
   "license": "MIT",
   "repository": {
