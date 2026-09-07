@@ -1,6 +1,6 @@
 {
   "name": "anrm",
-  "displayName": "ANRM",
+  "displayName": "ANRM: Unix Process Monitor",
   "description": "Unix process metrics with trend graphs.",
   "version": "1.0.0",
   "publisher": "VGLs",
