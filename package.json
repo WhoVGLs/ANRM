@@ -1,7 +1,7 @@
 {
   "name": "cpp-runtime-monitor",
   "displayName": "ANRM",
-  "description": "ANRM Not Runtime Monitor: Unix process metrics with trend graphs.",
+  "description": "Unix process metrics with trend graphs.",
   "version": "0.1.2",
   "publisher": "local-dev",
   "license": "MIT",
@@ -68,7 +68,7 @@
         {
           "type": "webview",
           "id": "cppRuntimeMonitor.view",
-          "name": "ANRM Not Runtime Monitor"
+          "name": "ANRM"
         }
       ]
     },

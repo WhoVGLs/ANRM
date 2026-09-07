@@ -1,6 +1,8 @@
 # ANRM
 
-**ANRM Not Runtime Monitor** is a compact Unix VS Code monitor for a running C++ process, with CPU, memory, NVIDIA GPU, VRAM, trend charts, and diagnostics.
+ANRM is a compact Unix VS Code monitor for a running C++ process, with CPU, memory, NVIDIA GPU, VRAM, trend charts, and diagnostics.
+
+The name is a small hint that this tool is focused on runtime visibility rather than traditional source-code debugging.
 
 ### Changes in 1.0 Release 
 - Slimmer metric cards and charts.

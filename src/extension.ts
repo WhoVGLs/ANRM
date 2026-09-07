@@ -189,7 +189,7 @@ canvas{
 </head>
 <body>
 <div class="header">
-  <div><h1>ANRM</h1><div class="sub">ANRM Not Runtime Monitor · Unix process monitor</div></div>
+  <div><h1>ANRM</h1><div class="sub">Unix process monitor</div></div>
   <div id="status" class="idle">Ready</div>
 </div>
 

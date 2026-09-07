@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve ANRM (ANRM Not Runtime Monitor).
+Thanks for helping improve ANRM.
 
 ## Development setup
 
