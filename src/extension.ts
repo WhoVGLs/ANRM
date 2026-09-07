@@ -55,7 +55,7 @@ export function activate(context: vscode.ExtensionContext) {
             monitor?.stop();
             monitor = undefined;
           monitorView.postMessage({ type: "stopped" });
-            vscode.window.setStatusBarMessage("C++ Runtime Monitor stopped.", 2000);
+            vscode.window.setStatusBarMessage("ANRM monitoring stopped.", 2000);
         })
     );
 
@@ -189,7 +189,7 @@ canvas{
 </head>
 <body>
 <div class="header">
-  <div><h1>C++ Runtime Monitor</h1><div class="sub">Unix process monitor</div></div>
+  <div><h1>ANRM</h1><div class="sub">ANRM Not Runtime Monitor · Unix process monitor</div></div>
   <div id="status" class="idle">Ready</div>
 </div>
 

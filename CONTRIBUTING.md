@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve C++ Runtime Monitor.
+Thanks for helping improve ANRM (ANRM Not Runtime Monitor).
 
 ## Development setup
 

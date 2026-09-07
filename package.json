@@ -1,7 +1,7 @@
 {
   "name": "cpp-runtime-monitor",
-  "displayName": "C++ Runtime Monitor",
-  "description": "Compact Unix C++ runtime monitor with trend graphs.",
+  "displayName": "ANRM",
+  "description": "ANRM Not Runtime Monitor: Unix process metrics with trend graphs.",
   "version": "0.1.2",
   "publisher": "local-dev",
   "license": "MIT",
@@ -43,22 +43,22 @@
     "commands": [
       {
         "command": "cppRuntimeMonitor.start",
-        "title": "C++ Runtime Monitor: Start"
+        "title": "ANRM: Start Monitoring"
       },
       {
         "command": "cppRuntimeMonitor.stop",
-        "title": "C++ Runtime Monitor: Stop"
+        "title": "ANRM: Stop Monitoring"
       },
       {
         "command": "cppRuntimeMonitor.moveToActiveGroup",
-        "title": "C++ Runtime Monitor: Focus Primary Sidebar View"
+        "title": "ANRM: Focus Sidebar View"
       }
     ],
     "viewsContainers": {
       "activitybar": [
         {
           "id": "cppRuntimeMonitor",
-          "title": "C++ Monitor",
+          "title": "ANRM",
           "icon": "./media/monitor.svg"
         }
       ]
@@ -68,12 +68,12 @@
         {
           "type": "webview",
           "id": "cppRuntimeMonitor.view",
-          "name": "C++ Runtime Monitor"
+          "name": "ANRM Not Runtime Monitor"
         }
       ]
     },
     "configuration": {
-      "title": "C++ Runtime Monitor",
+      "title": "ANRM",
       "properties": {
         "cppRuntimeMonitor.refreshMs": {
           "type": "number",
