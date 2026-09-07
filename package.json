@@ -3,7 +3,7 @@
   "displayName": "ANRM",
   "description": "Unix process metrics with trend graphs.",
   "version": "0.1.2",
-  "publisher": "local-dev",
+  "publisher": "VGLs",
   "license": "MIT",
   "repository": {
     "type": "git",
