@@ -2,7 +2,7 @@
   "name": "anrm",
   "displayName": "ANRM: Unix Process Monitor",
   "description": "Unix process metrics with trend graphs.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "VGLs",
   "license": "MIT",
   "repository": {
