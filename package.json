@@ -1,0 +1,106 @@
+{
+  "name": "cpp-runtime-monitor",
+  "displayName": "C++ Runtime Monitor",
+  "description": "Compact Unix C++ runtime monitor with trend graphs.",
+  "version": "0.1.2",
+  "publisher": "local-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhoVGLs/cpp-runtime-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhoVGLs/cpp-runtime-monitor/issues"
+  },
+  "homepage": "https://github.com/WhoVGLs/cpp-runtime-monitor#readme",
+  "keywords": [
+    "cpp",
+    "c++",
+    "unix",
+    "performance",
+    "profiler",
+    "runtime",
+    "monitor"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "galleryBanner": {
+    "color": "#1f2937",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onView:cppRuntimeMonitor.view",
+    "onCommand:cppRuntimeMonitor.start",
+    "onCommand:cppRuntimeMonitor.stop",
+    "onCommand:cppRuntimeMonitor.moveToActiveGroup"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cppRuntimeMonitor.start",
+        "title": "C++ Runtime Monitor: Start"
+      },
+      {
+        "command": "cppRuntimeMonitor.stop",
+        "title": "C++ Runtime Monitor: Stop"
+      },
+      {
+        "command": "cppRuntimeMonitor.moveToActiveGroup",
+        "title": "C++ Runtime Monitor: Focus Primary Sidebar View"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "cppRuntimeMonitor",
+          "title": "C++ Monitor",
+          "icon": "./media/monitor.svg"
+        }
+      ]
+    },
+    "views": {
+      "cppRuntimeMonitor": [
+        {
+          "type": "webview",
+          "id": "cppRuntimeMonitor.view",
+          "name": "C++ Runtime Monitor"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "C++ Runtime Monitor",
+      "properties": {
+        "cppRuntimeMonitor.refreshMs": {
+          "type": "number",
+          "default": 1000,
+          "minimum": 250,
+          "description": "Monitoring refresh interval in milliseconds."
+        },
+        "cppRuntimeMonitor.historySeconds": {
+          "type": "number",
+          "default": 60,
+          "minimum": 10,
+          "maximum": 600,
+          "description": "Seconds kept in trend graphs."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package --allow-missing-repository",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.7.2"
+  }
+}
