@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WhoVGLs/cpp-runtime-monitor.git"
+    "url": "https://github.com/WhoVGLs/ANRM.git"
   },
   "bugs": {
-    "url": "https://github.com/WhoVGLs/cpp-runtime-monitor/issues"
+    "url": "https://github.com/WhoVGLs/ANRM/issues"
   },
-  "homepage": "https://github.com/WhoVGLs/cpp-runtime-monitor#readme",
+  "homepage": "https://github.com/WhoVGLs/ANRM#readme",
   "keywords": [
     "cpp",
     "c++",
